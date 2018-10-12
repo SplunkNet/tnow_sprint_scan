@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">716281160b100300d97d8bf637673ac7</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <comment/>
+        <compiled_snapshot display_value="Send Email">716281160b100300d97d8bf637673ac7</compiled_snapshot>
+        <display_text/>
+        <flow display_value="runIt">eda9eceadbcdef00fd672649489619ec</flow>
+        <order>2.1</order>
+        <parent_ui_id>863cc024-e1dd-4d2a-ad44-03c5b74bd2a2</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-12 09:05:44</sys_created_on>
+        <sys_id>e1a9202edbcdef00fd67264948961902</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="tnow_sprint_scan" source="x_snc_tnow_sprint">a0920866db8def00fd672649489619c2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="tnow_sprint_scan">a0920866db8def00fd672649489619c2</sys_scope>
+        <sys_update_name>sys_hub_action_instance_e1a9202edbcdef00fd67264948961902</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-12 09:12:29</sys_updated_on>
+        <ui_id>8c450790-31dc-4c70-9802-7c626d729775</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e1a9202edbcdef00fd67264948961902"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e1a9202edbcdef00fd67264948961902</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-12 09:05:44</sys_created_on>
+        <sys_id>a9a9202edbcdef00fd67264948961907</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-12 09:05:44</sys_updated_on>
+        <value>peter.zecchin@servicenow.com</value>
+        <variable display_value="">ce6281160b100300d97d8bf637673ac9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e1a9202edbcdef00fd67264948961902"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>e1a9202edbcdef00fd67264948961902</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-12 09:05:44</sys_created_on>
+        <sys_id>29a9202edbcdef00fd67264948961907</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-12 09:05:44</sys_updated_on>
+        <table>var__m_sys_hub_action_input_716281160b100300d97d8bf637673ac7</table>
+        <value>Its a week day so the scan is going to run.   {{f86a3be7-9ec8-44bc-b848-b0212a7ee0e0.dow}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>e1a9202edbcdef00fd67264948961902</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-12 09:05:44</sys_created_on>
+        <sys_id>65a9202edbcdef00fd67264948961907</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-12 09:05:44</sys_updated_on>
+        <table>var__m_sys_hub_action_input_716281160b100300d97d8bf637673ac7</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>

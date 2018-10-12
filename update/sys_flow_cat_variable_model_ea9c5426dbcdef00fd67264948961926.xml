@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_flow_cat_variable_model">
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>269c5426dbcdef00fd67264948961926</id>
+        <name>runIt</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-12 08:08:43</sys_created_on>
+        <sys_id>ea9c5426dbcdef00fd67264948961926</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>runIt</sys_name>
+        <sys_package display_value="tnow_sprint_scan" source="x_snc_tnow_sprint">a0920866db8def00fd672649489619c2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="tnow_sprint_scan">a0920866db8def00fd672649489619c2</sys_scope>
+        <sys_update_name>sys_flow_cat_variable_model_ea9c5426dbcdef00fd67264948961926</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-12 08:08:43</sys_updated_on>
+    </sys_flow_cat_variable_model>
+</record_update>

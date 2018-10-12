@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_snapshot">
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>runit</internal_name>
+        <label_cache>[{"name":"ce20a002-1ea7-48c8-833b-52e934643dff.dow","label":"1➛DOW","reference_display":"DOW","type":"string","base_type":"string"},{"name":"f86a3be7-9ec8-44bc-b848-b0212a7ee0e0.dow","label":"1➛DOW","reference_display":"DOW","type":"string","base_type":"string"},{"name":"8c450790-31dc-4c70-9802-7c626d729775.email","label":"2.1➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference"},{"name":"8e2a9272-4e79-4404-b461-adcebe36a3b6.email","label":"3➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference"}]</label_cache>
+        <master>true</master>
+        <name>runIt</name>
+        <outputs/>
+        <parent_flow display_value="runIt">c369c06adb8def00fd67264948961980</parent_flow>
+        <remote_trigger_id/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-12 09:05:43</sys_created_on>
+        <sys_id>eda9eceadbcdef00fd672649489619ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>runIt</sys_name>
+        <sys_package display_value="tnow_sprint_scan" source="x_snc_tnow_sprint">a0920866db8def00fd672649489619c2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="tnow_sprint_scan">a0920866db8def00fd672649489619c2</sys_scope>
+        <sys_update_name>sys_hub_flow_snapshot_eda9eceadbcdef00fd672649489619ec</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-12 09:05:43</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_variable_value action="delete_multiple" query="document_key=eda9eceadbcdef00fd672649489619ec"/>
+</record_update>
