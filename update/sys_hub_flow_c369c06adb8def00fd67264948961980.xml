@@ -8,8 +8,8 @@
         <copied_from_name/>
         <description/>
         <internal_name>runit</internal_name>
-        <label_cache>[{"name":"8e2a9272-4e79-4404-b461-adcebe36a3b6.email","label":"3➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference"},{"name":"8c450790-31dc-4c70-9802-7c626d729775.email","label":"2.1➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference"},{"name":"f86a3be7-9ec8-44bc-b848-b0212a7ee0e0.dow","label":"1➛DOW","reference_display":"DOW","type":"string","base_type":"string"},{"name":"ce20a002-1ea7-48c8-833b-52e934643dff.dow","label":"1➛DOW","reference_display":"DOW","type":"string","base_type":"string"}]</label_cache>
-        <latest_snapshot>bf5ba4e6db45a7404c5c8709689619ce</latest_snapshot>
+        <label_cache>[{"name":"04fe85d3-edf1-457e-9a10-a6f15bf7c4cb.responsebody","label":"2.2➛responseBody","reference_display":"responseBody","type":"string","base_type":"string"},{"name":"04fe85d3-edf1-457e-9a10-a6f15bf7c4cb.errormessage","label":"2.2➛errorMessage","reference_display":"errorMessage","type":"string","base_type":"string"},{"name":"04fe85d3-edf1-457e-9a10-a6f15bf7c4cb.errorcode","label":"2.2➛errorCode","reference_display":"errorCode","type":"string","base_type":"string"},{"name":"04fe85d3-edf1-457e-9a10-a6f15bf7c4cb.statuscode","label":"2.2➛statusCode","type":"string","base_type":"string"},{"name":"8e2a9272-4e79-4404-b461-adcebe36a3b6.email","label":"3➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference"},{"name":"8c450790-31dc-4c70-9802-7c626d729775.email","label":"2.1➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference"},{"name":"f86a3be7-9ec8-44bc-b848-b0212a7ee0e0.dow","label":"1➛DOW","reference_display":"DOW","type":"string","base_type":"string"},{"name":"ce20a002-1ea7-48c8-833b-52e934643dff.dow","label":"1➛DOW","reference_display":"DOW","type":"string","base_type":"string"},{"name":"f4077b79-8041-4520-bdd3-d78422bdc7c6.email","label":"2.3➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference"},{"name":"1605412d-5ce9-423e-ac27-db31d604c276.email","label":"2.3.1➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference"},{"name":"25c8a08d-deb9-4753-9ce6-d081b09ac320.email","label":"2.4➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference"}]</label_cache>
+        <latest_snapshot>eda9eceadbcdef00fd672649489619ec</latest_snapshot>
         <master_snapshot>eda9eceadbcdef00fd672649489619ec</master_snapshot>
         <name>runIt</name>
         <outputs/>
@@ -22,14 +22,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-10-12 06:44:55</sys_created_on>
         <sys_id>c369c06adb8def00fd67264948961980</sys_id>
-        <sys_mod_count>27</sys_mod_count>
+        <sys_mod_count>36</sys_mod_count>
         <sys_name>runIt</sys_name>
         <sys_package display_value="tnow_sprint_scan" source="x_snc_tnow_sprint">a0920866db8def00fd672649489619c2</sys_package>
         <sys_policy/>
         <sys_scope display_value="tnow_sprint_scan">a0920866db8def00fd672649489619c2</sys_scope>
         <sys_update_name>sys_hub_flow_c369c06adb8def00fd67264948961980</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-10-12 09:13:15</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-12 09:37:36</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_variable_value action="delete_multiple" query="document_key=c369c06adb8def00fd67264948961980"/>
