@@ -6,13 +6,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-10-12 09:29:26</sys_created_on>
         <sys_id>f41fa0eedbcdef00fd67264948961973</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>52</sys_mod_count>
         <sys_name/>
         <sys_package display_value="tnow_sprint_scan" source="x_snc_tnow_sprint">a0920866db8def00fd672649489619c2</sys_package>
         <sys_policy/>
         <sys_scope display_value="tnow_sprint_scan">a0920866db8def00fd672649489619c2</sys_scope>
         <sys_update_name>sys_hub_flow_block_f41fa0eedbcdef00fd67264948961973</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-10-12 09:37:36</sys_updated_on>
+        <sys_updated_on>2018-10-13 05:28:42</sys_updated_on>
     </sys_hub_flow_block>
 </record_update>

@@ -13,14 +13,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-10-12 06:48:25</sys_created_on>
         <sys_id>d23a886adb8def00fd672649489619f3</sys_id>
-        <sys_mod_count>70</sys_mod_count>
+        <sys_mod_count>98</sys_mod_count>
         <sys_name/>
         <sys_package display_value="tnow_sprint_scan" source="x_snc_tnow_sprint">a0920866db8def00fd672649489619c2</sys_package>
         <sys_policy/>
         <sys_scope display_value="tnow_sprint_scan">a0920866db8def00fd672649489619c2</sys_scope>
         <sys_update_name>sys_hub_action_instance_d23a886adb8def00fd672649489619f3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-10-12 09:37:36</sys_updated_on>
+        <sys_updated_on>2018-10-13 05:28:42</sys_updated_on>
         <ui_id>f86a3be7-9ec8-44bc-b848-b0212a7ee0e0</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=d23a886adb8def00fd672649489619f3"/>

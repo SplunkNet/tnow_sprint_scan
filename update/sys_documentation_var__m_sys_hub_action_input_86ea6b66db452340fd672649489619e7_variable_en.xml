@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="variable" label="responseBody" language="en" table="var__m_sys_hub_action_input_86ea6b66db452340fd672649489619e7">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>variable</element>
+            <help/>
+            <hint/>
+            <label>responseBody</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_86ea6b66db452340fd672649489619e7</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-12 23:12:21</sys_created_on>
+            <sys_id>136ba3a6db452340fd67264948961925</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>responseBody</sys_name>
+            <sys_package display_value="tnow_sprint_scan" source="x_snc_tnow_sprint">a0920866db8def00fd672649489619c2</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="tnow_sprint_scan">a0920866db8def00fd672649489619c2</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_input_86ea6b66db452340fd672649489619e7_variable_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-12 23:12:21</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -4,23 +4,23 @@
         <action_type display_value="TriggerScan">42c88428dbc12f00fd672649489619b7</action_type>
         <action_type_parent/>
         <comment/>
-        <compiled_snapshot/>
+        <compiled_snapshot display_value="TriggerScan">42c88428dbc12f00fd672649489619b7</compiled_snapshot>
         <display_text/>
         <flow display_value="runIt">c369c06adb8def00fd67264948961980</flow>
-        <order>2.2</order>
+        <order>2.1</order>
         <parent_ui_id>863cc024-e1dd-4d2a-ad44-03c5b74bd2a2</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-10-12 09:21:10</sys_created_on>
         <sys_id>3f2d24aedbcdef00fd67264948961914</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>46</sys_mod_count>
         <sys_name/>
         <sys_package display_value="tnow_sprint_scan" source="x_snc_tnow_sprint">a0920866db8def00fd672649489619c2</sys_package>
         <sys_policy/>
         <sys_scope display_value="tnow_sprint_scan">a0920866db8def00fd672649489619c2</sys_scope>
         <sys_update_name>sys_hub_action_instance_3f2d24aedbcdef00fd67264948961914</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-10-12 09:37:36</sys_updated_on>
+        <sys_updated_on>2018-10-13 05:28:42</sys_updated_on>
         <ui_id>04fe85d3-edf1-457e-9a10-a6f15bf7c4cb</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=3f2d24aedbcdef00fd67264948961914"/>

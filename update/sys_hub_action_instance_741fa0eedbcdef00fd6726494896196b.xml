@@ -5,23 +5,23 @@
         <action_type display_value="Send Email">716281160b100300d97d8bf637673ac7</action_type>
         <action_type_parent/>
         <comment/>
-        <compiled_snapshot/>
+        <compiled_snapshot display_value="Send Email">716281160b100300d97d8bf637673ac7</compiled_snapshot>
         <display_text/>
         <flow display_value="runIt">c369c06adb8def00fd67264948961980</flow>
-        <order>2.3.1</order>
+        <order>2.2.1</order>
         <parent_ui_id>aafaaa58-fcbc-480a-9ecb-c484bf77c9d7</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-10-12 09:29:26</sys_created_on>
         <sys_id>741fa0eedbcdef00fd6726494896196b</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>44</sys_mod_count>
         <sys_name/>
         <sys_package display_value="tnow_sprint_scan" source="x_snc_tnow_sprint">a0920866db8def00fd672649489619c2</sys_package>
         <sys_policy/>
         <sys_scope display_value="tnow_sprint_scan">a0920866db8def00fd672649489619c2</sys_scope>
         <sys_update_name>sys_hub_action_instance_741fa0eedbcdef00fd6726494896196b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-10-12 09:37:36</sys_updated_on>
+        <sys_updated_on>2018-10-13 05:28:42</sys_updated_on>
         <ui_id>1605412d-5ce9-423e-ac27-db31d604c276</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=741fa0eedbcdef00fd6726494896196b"/>
@@ -128,11 +128,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-10-12 09:30:46</sys_created_on>
         <sys_id>e46f64eedbcdef00fd672649489619a5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-10-12 09:30:46</sys_updated_on>
+        <sys_updated_on>2018-10-13 04:32:39</sys_updated_on>
         <table>var__m_sys_hub_action_input_716281160b100300d97d8bf637673ac7</table>
-        <value>{{04fe85d3-edf1-457e-9a10-a6f15bf7c4cb.statuscode}}</value>
+        <value>FAIL FOR SOME REASON - {{04fe85d3-edf1-457e-9a10-a6f15bf7c4cb.statuscode}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>ah_to</field>

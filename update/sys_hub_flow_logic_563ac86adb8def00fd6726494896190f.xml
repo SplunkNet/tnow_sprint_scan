@@ -15,14 +15,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-10-12 06:48:26</sys_created_on>
         <sys_id>563ac86adb8def00fd6726494896190f</sys_id>
-        <sys_mod_count>35</sys_mod_count>
+        <sys_mod_count>49</sys_mod_count>
         <sys_name/>
         <sys_package display_value="tnow_sprint_scan" source="x_snc_tnow_sprint">a0920866db8def00fd672649489619c2</sys_package>
         <sys_policy/>
         <sys_scope display_value="tnow_sprint_scan">a0920866db8def00fd672649489619c2</sys_scope>
         <sys_update_name>sys_hub_flow_logic_563ac86adb8def00fd6726494896190f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-10-12 09:37:37</sys_updated_on>
+        <sys_updated_on>2018-10-13 05:28:43</sys_updated_on>
         <ui_id>863cc024-e1dd-4d2a-ad44-03c5b74bd2a2</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -50,10 +50,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-10-12 06:48:26</sys_created_on>
         <sys_id>5e3ac86adb8def00fd67264948961912</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-10-12 09:03:25</sys_updated_on>
-        <value>{{f86a3be7-9ec8-44bc-b848-b0212a7ee0e0.dow}}!=6^NQ{{f86a3be7-9ec8-44bc-b848-b0212a7ee0e0.dow}}!=7</value>
+        <sys_updated_on>2018-10-12 23:26:28</sys_updated_on>
+        <value>{{f86a3be7-9ec8-44bc-b848-b0212a7ee0e0.dow}}!=7</value>
         <variable display_value="">9a5f5105c32632002841b63b12d3ae46</variable>
     </sys_variable_value>
 </record_update>

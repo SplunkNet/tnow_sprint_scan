@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_step_instance">
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="parseRunIt">1b0baf66db452340fd672649489619e8</action>
+        <cid>032b5457-d1e2-4e2d-a4b6-1ff969cc35b7</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-12 23:25:02</sys_created_on>
+        <sys_id>c55e2be6db452340fd6726494896196c</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Script step</sys_name>
+        <sys_package display_value="tnow_sprint_scan" source="x_snc_tnow_sprint">a0920866db8def00fd672649489619c2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="tnow_sprint_scan">a0920866db8def00fd672649489619c2</sys_scope>
+        <sys_update_name>sys_hub_step_instance_c55e2be6db452340fd6726494896196c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-13 04:55:14</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=c55e2be6db452340fd6726494896196c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c55e2be6db452340fd6726494896196c</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-12 23:25:02</sys_created_on>
+        <sys_id>5d5e2be6db452340fd67264948961975</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-13 04:55:14</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+
+   
+  var json_response = JSON.parse(inputs.JSON_in);
+  
+  var gr = new GlideRecord("x_snc_tnow_sprint_scan_history");
+  gr.success=json_response.result.success;
+  gr.scan_id=json_response.result.scan_id;
+  gr.scan_number=json_response.result.number;
+  gr.complete=false;
+  gr.loaded=false;
+  gr.retrieved=false;
+  gr.payload=(JSON.stringify(inputs.JSON_in));
+  gr.insert();
+
+  
+})(inputs, outputs);
+</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c55e2be6db452340fd6726494896196c</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-12 23:25:02</sys_created_on>
+        <sys_id>995e2be6db452340fd67264948961975</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-12 23:25:02</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=c55e2be6db452340fd6726494896196c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>c55e2be6db452340fd6726494896196c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-12 23:25:02</sys_created_on>
+        <sys_id>555e2be6db452340fd67264948961975</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-12 23:25:02</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>JSON_in</field>
+        <id>c55e2be6db452340fd6726494896196c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-13 04:25:02</sys_created_on>
+        <sys_id>33f27c3adb412300fd672649489619b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-13 04:25:02</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_c55e2be6db452340fd6726494896196c</table>
+        <value>{{action.variable}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>c55e2be6db452340fd6726494896196c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-12 23:25:02</sys_created_on>
+        <sys_id>195e2be6db452340fd67264948961975</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-12 23:25:02</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>
