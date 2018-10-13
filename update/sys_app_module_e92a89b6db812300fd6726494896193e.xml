@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
     <sys_app_module action="INSERT_OR_UPDATE">
         <active>true</active>
-        <application display_value="findings staging">292a89b6db812300fd6726494896193b</application>
+        <application display_value="TNOW SprintScan">549d4c03db092300fd672649489619e2</application>
         <assessment/>
         <content_page/>
         <device_type/>
@@ -25,7 +25,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e92a89b6db812300fd6726494896193e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>findings stagings</sys_name>
         <sys_overrides/>
         <sys_package display_value="tnow_sprint_scan" source="x_snc_tnow_sprint">a0920866db8def00fd672649489619c2</sys_package>
@@ -33,7 +33,7 @@
         <sys_scope display_value="tnow_sprint_scan">a0920866db8def00fd672649489619c2</sys_scope>
         <sys_update_name>sys_app_module_e92a89b6db812300fd6726494896193e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-10-13 06:06:12</sys_updated_on>
+        <sys_updated_on>2018-10-13 20:21:46</sys_updated_on>
         <timeline_page/>
         <title>findings stagings</title>
         <uncancelable>false</uncancelable>
