@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="findings staging" max_length="40" name="x_snc_tnow_sprint_findings_staging" type="collection">
+        <element label="best practice URL" max_length="200" name="best_practice_url" type="string"/>
+        <element label="category" max_length="100" name="category" type="string"/>
+        <element label="definition number" max_length="50" name="definition_number" type="string"/>
+        <element label="finding number" max_length="20" name="finding_number" type="string"/>
+        <element label="Product" max_length="100" name="product" type="string"/>
+        <element label="product table" max_length="100" name="product_table" type="string"/>
+        <element label="rating" max_length="50" name="rating" type="string"/>
+        <element label="recommendation" max_length="500" name="recommendation" type="string"/>
+        <element label="scan number" max_length="20" name="scan_number" type="string"/>
+        <element label="short description" max_length="250" name="short_description" type="string"/>
+        <element label="source base file" max_length="100" name="source_base_file" type="string"/>
+        <element label="source base version" max_length="100" name="source_base_version" type="string"/>
+        <element label="source current ver src display" max_length="100" name="source_current_ver_src_display" type="string"/>
+        <element label="source display" max_length="10" name="source_display" type="string"/>
+        <element label="source link" max_length="200" name="source_link" type="string"/>
+        <element label="source sys updated by" max_length="100" name="source_sys_updated_by" type="string"/>
+        <element label="source table" max_length="50" name="source_table" type="string"/>
+        <element label="source updated on" max_length="100" name="source_updated_on" type="string"/>
+    </element>
+</database>

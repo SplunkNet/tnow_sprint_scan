@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="source_current_ver_src_display" label="source current ver src display" language="en" table="x_snc_tnow_sprint_findings">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>source_current_ver_src_display</element>
+            <help/>
+            <hint/>
+            <label>source current ver src display</label>
+            <language>en</language>
+            <name>x_snc_tnow_sprint_findings</name>
+            <plural>source current ver src displays</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-13 05:55:11</sys_created_on>
+            <sys_id>9ca74576db812300fd672649489619d4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>source current ver src display</sys_name>
+            <sys_package display_value="tnow_sprint_scan" source="x_snc_tnow_sprint">a0920866db8def00fd672649489619c2</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="tnow_sprint_scan">a0920866db8def00fd672649489619c2</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_tnow_sprint_findings_source_current_ver_src_display_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-13 05:55:11</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
