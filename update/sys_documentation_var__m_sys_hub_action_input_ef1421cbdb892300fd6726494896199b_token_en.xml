@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="token" label="token" language="en" table="var__m_sys_hub_action_input_ef1421cbdb892300fd6726494896199b">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>token</element>
+            <help/>
+            <hint/>
+            <label>token</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_ef1421cbdb892300fd6726494896199b</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-14 02:43:28</sys_created_on>
+            <sys_id>b9556dcbdb892300fd672649489619b1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>token</sys_name>
+            <sys_package display_value="tnow_sprint_scan" source="x_snc_tnow_sprint">a0920866db8def00fd672649489619c2</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="tnow_sprint_scan">a0920866db8def00fd672649489619c2</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_input_ef1421cbdb892300fd6726494896199b_token_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-14 02:43:28</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

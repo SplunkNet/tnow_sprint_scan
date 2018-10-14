@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_snapshot">
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Gets the result of a previously run scan and injects the result into the importset staging table for transform.</description>
+        <internal_name>fetchit</internal_name>
+        <label_cache>[{"name":"031892c3-8e52-463d-98a1-2b267d9ec186.Record.loaded","label":"1➛scan_history Record➛Loaded","reference":"","reference_display":"Loaded","type":"boolean","base_type":"boolean","parent_table_name":"x_snc_tnow_sprint_scan_history","column_name":"loaded"},{"name":"031892c3-8e52-463d-98a1-2b267d9ec186.Record.retrieved","label":"1➛scan_history Record➛Retrieved","reference":"","reference_display":"Retrieved","type":"boolean","base_type":"boolean","parent_table_name":"x_snc_tnow_sprint_scan_history","column_name":"retrieved"},{"name":"031892c3-8e52-463d-98a1-2b267d9ec186.Record","label":"1➛scan_history Record","reference":"x_snc_tnow_sprint_scan_history","reference_display":"scan_history","type":"reference","base_type":"reference"},{"name":"031892c3-8e52-463d-98a1-2b267d9ec186.Table","label":"1➛scan_history Table","reference":"x_snc_tnow_sprint_scan_history","reference_display":"scan_history","type":"table_name","base_type":"table_name"},{"name":"82712ef6-d61a-4b06-bf30-0634ef33c8b0.record","label":"2➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"82712ef6-d61a-4b06-bf30-0634ef33c8b0.table_name","label":"2➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"2ea5d051-c87d-4384-b78b-db82a54a9e4c.record","label":"2➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"2ea5d051-c87d-4384-b78b-db82a54a9e4c.table_name","label":"2➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"}]</label_cache>
+        <master>true</master>
+        <name>fetchIt</name>
+        <outputs/>
+        <parent_flow display_value="fetchIt">11de4843db092300fd672649489619c2</parent_flow>
+        <remote_trigger_id/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-14 02:16:03</sys_created_on>
+        <sys_id>041f5dc7db892300fd672649489619c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>fetchIt</sys_name>
+        <sys_package display_value="tnow_sprint_scan" source="x_snc_tnow_sprint">a0920866db8def00fd672649489619c2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="tnow_sprint_scan">a0920866db8def00fd672649489619c2</sys_scope>
+        <sys_update_name>sys_hub_flow_snapshot_041f5dc7db892300fd672649489619c6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-14 02:16:03</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_variable_value action="delete_multiple" query="document_key=041f5dc7db892300fd672649489619c6"/>
+</record_update>
