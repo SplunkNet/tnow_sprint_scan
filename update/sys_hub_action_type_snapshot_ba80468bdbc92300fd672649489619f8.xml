@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_snapshot">
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>this script will have to loop through the response body from the fetchit rest step and do inserts row by row into the findings staging importset table.</description>
+        <internal_name>parsefetchit</internal_name>
+        <label_cache>[{"name":"{{action.responsebody}}","label":"action➛responseBody","type":"action","ref":""}]</label_cache>
+        <master>true</master>
+        <name>parseFetchit</name>
+        <outputs/>
+        <parent_action display_value="parseFetchit">6f873d47dbc92300fd672649489619f3</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-14 04:42:20</sys_created_on>
+        <sys_id>ba80468bdbc92300fd672649489619f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>parseFetchit</sys_name>
+        <sys_package display_value="tnow_sprint_scan" source="x_snc_tnow_sprint">a0920866db8def00fd672649489619c2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="tnow_sprint_scan">a0920866db8def00fd672649489619c2</sys_scope>
+        <sys_update_name>sys_hub_action_type_snapshot_ba80468bdbc92300fd672649489619f8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-14 04:42:20</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=ba80468bdbc92300fd672649489619f8"/>
+    <sys_variable_value action="delete_multiple" query="document_key=ba80468bdbc92300fd672649489619f8"/>
+</record_update>

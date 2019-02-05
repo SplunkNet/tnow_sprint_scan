@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>this script will have to loop through the response body from the fetchit rest step and do inserts row by row into the findings staging importset table.</description>
+        <internal_name>parsefetchit</internal_name>
+        <label_cache>[{"name":"{{action.responsebody}}","label":"action➛responseBody","type":"action","ref":""}]</label_cache>
+        <latest_snapshot>23eed449dbd16300fd672649489619e0</latest_snapshot>
+        <master_snapshot>ba80468bdbc92300fd672649489619f8</master_snapshot>
+        <name>parseFetchit</name>
+        <outputs/>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-14 04:03:03</sys_created_on>
+        <sys_id>6f873d47dbc92300fd672649489619f3</sys_id>
+        <sys_mod_count>119</sys_mod_count>
+        <sys_name>parseFetchit</sys_name>
+        <sys_package display_value="tnow_sprint_scan" source="x_snc_tnow_sprint">a0920866db8def00fd672649489619c2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="tnow_sprint_scan">a0920866db8def00fd672649489619c2</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_6f873d47dbc92300fd672649489619f3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-07 02:13:37</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=6f873d47dbc92300fd672649489619f3"/>
+    <sys_variable_value action="delete_multiple" query="document_key=6f873d47dbc92300fd672649489619f3"/>
+</record_update>

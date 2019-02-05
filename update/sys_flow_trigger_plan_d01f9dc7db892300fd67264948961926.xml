@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_flow_trigger_plan">
     <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
         <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
-        <plan/>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"d01f9dc7db892300fd67264948961926","name":"plan"}}</plan>
         <plan_id>11de4843db092300fd672649489619c2</plan_id>
-        <snapshot>041f5dc7db892300fd672649489619c6</snapshot>
+        <snapshot>52f2e341db15a3004c5c87096896196f</snapshot>
         <sys_class_name>sys_flow_trigger_plan</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-10-14 02:16:03</sys_created_on>
         <sys_id>d01f9dc7db892300fd67264948961926</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>4c1f9dc7db892300fd67264948961921</sys_name>
         <sys_package display_value="tnow_sprint_scan" source="x_snc_tnow_sprint">a0920866db8def00fd672649489619c2</sys_package>
         <sys_policy/>
         <sys_scope display_value="tnow_sprint_scan">a0920866db8def00fd672649489619c2</sys_scope>
         <sys_update_name>sys_flow_trigger_plan_d01f9dc7db892300fd67264948961926</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-10-14 02:16:03</sys_updated_on>
+        <sys_updated_on>2018-10-19 04:59:21</sys_updated_on>
         <trigger display_value="">4c1f9dc7db892300fd67264948961921</trigger>
     </sys_flow_trigger_plan>
 </record_update>

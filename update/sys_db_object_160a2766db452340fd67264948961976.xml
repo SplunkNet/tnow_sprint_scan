@@ -23,14 +23,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-10-12 23:08:23</sys_created_on>
         <sys_id>160a2766db452340fd67264948961976</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>x_snc_tnow_sprint_scan_history</sys_name>
         <sys_package display_value="tnow_sprint_scan" source="x_snc_tnow_sprint">a0920866db8def00fd672649489619c2</sys_package>
         <sys_policy/>
         <sys_scope display_value="tnow_sprint_scan">a0920866db8def00fd672649489619c2</sys_scope>
         <sys_update_name>sys_db_object_160a2766db452340fd67264948961976</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-10-12 23:08:23</sys_updated_on>
+        <sys_updated_by>samuel.premkumar@snc</sys_updated_by>
+        <sys_updated_on>2018-10-16 03:38:05</sys_updated_on>
         <update_access>false</update_access>
         <user_role display_value="x_snc_tnow_sprint.scan_history_user" name="x_snc_tnow_sprint.scan_history_user">498aa366db452340fd67264948961971</user_role>
         <ws_access>true</ws_access>

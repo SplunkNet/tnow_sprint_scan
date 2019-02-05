@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_step_instance">
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="parseFetchit">6f873d47dbc92300fd672649489619f3</action>
+        <cid>2218c190-24e4-473b-ae0c-a28dbd8b8dda</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-14 04:03:39</sys_created_on>
+        <sys_id>94b7b187dbc92300fd67264948961949</sys_id>
+        <sys_mod_count>93</sys_mod_count>
+        <sys_name>Script step</sys_name>
+        <sys_package display_value="tnow_sprint_scan" source="x_snc_tnow_sprint">a0920866db8def00fd672649489619c2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="tnow_sprint_scan">a0920866db8def00fd672649489619c2</sys_scope>
+        <sys_update_name>sys_hub_step_instance_94b7b187dbc92300fd67264948961949</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-20 02:43:14</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=94b7b187dbc92300fd67264948961949"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>94b7b187dbc92300fd67264948961949</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-14 04:03:39</sys_created_on>
+        <sys_id>98b7b187dbc92300fd67264948961953</sys_id>
+        <sys_mod_count>91</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-20 02:43:15</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+//All Hail Zac Murray for the folowing script core any inellegance is mine not his :)  
+  
+//parse the JSON input into a JS array for script use
+// JSON in basic structure is going to be:
+// {
+// "results": {
+//       "defintion_id":{
+//               "label":"value",
+//               "lable2":"value2":,
+//               "findings": [
+//                       {
+//                          "label":"value",
+//                          "label2":"value2:,
+//                       }
+//                       }
+//            }
+// }
+//  
+  
+ var json_resp = JSON.parse(inputs.JSON_in).result;
+  //loop through the JS Array at level 1 and build metadata for "findings" to come in second level
+  for (var definition_id in json_resp) { 	
+    var definition = json_resp[definition_id]; // this is the array ID of elements in level 1
+  	var short_description = definition.short_description;
+    var findings_count = definition.findings.length;// how many elements are in level 2 array?
+    //Log some stuff for debug
+    gs.info('ZZZZZ 0 Finding Count = ' + findings_count );
+    gs.info('ZZZZZ 1 Processing definifition {0} ' + short_description, definition_id);
+    gs.info('ZZZZZ 2 Short Description {0}', short_description);
+    gs.info('ZZZZZ 3   Findings: ({0})' + short_description, findings_count);    
+    
+    for (var i=0; i&lt;findings_count; i++) {
+
+        var finding = definition.findings[i];
+
+       gs.info('ZZZZZ 4     {0}:', i);
+
+        /*for (var attr in finding) {
+
+            if (finding.hasOwnProperty(attr)) {
+
+                gs.info('ZZZZZ 5      {0}:  {1}', attr, finding[attr]);
+
+           } */ 
+              
+          /*    var gr = new GlideRecord('x_snc_tnow_sprint_findings_staging');
+				gr.initialize(); 
+				gr.finding_number = finding.number; 
+                gr.product = finding.product;
+                gr.product_table = finding.product_table;
+                var def = json_resp[definition_id];
+                gr.definition_number = def[0] ;
+                gr.best_practice_url = 'WOBBLY';
+                gr.category = i;
+                gr.short_description = definition.short_description;
+                gr.insert(); */
+        }
+    }
+  }
+  	
+  
+  
+  
+})(inputs, outputs);
+</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>94b7b187dbc92300fd67264948961949</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-14 04:03:39</sys_created_on>
+        <sys_id>d4b7b187dbc92300fd67264948961953</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-14 04:03:39</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=94b7b187dbc92300fd67264948961949"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>94b7b187dbc92300fd67264948961949</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-14 04:03:39</sys_created_on>
+        <sys_id>90b7b187dbc92300fd67264948961953</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-14 04:03:39</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>JSON_in</field>
+        <id>94b7b187dbc92300fd67264948961949</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-14 04:05:49</sys_created_on>
+        <sys_id>0838b587dbc92300fd672649489619b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-14 04:05:49</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_94b7b187dbc92300fd67264948961949</table>
+        <value>{{action.responsebody}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>94b7b187dbc92300fd67264948961949</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-14 04:03:39</sys_created_on>
+        <sys_id>54b7b187dbc92300fd67264948961953</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-14 04:03:39</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>

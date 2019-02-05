@@ -3,7 +3,8 @@
         <element default="False" label="Complete" max_length="40" name="complete" type="boolean"/>
         <element default="False" label="Loaded" max_length="40" name="loaded" type="boolean"/>
         <element label="Payload" max_length="500" name="payload" type="string"/>
-        <element default="False" label="Retrieved" max_length="40" name="retrieved" type="boolean"/>
+        <element label="Retrieved" max_length="40" name="retrieved" type="boolean"/>
+        <element default="no" label="retrieved2" max_length="20" name="retrieved2" type="string"/>
         <element label="Scan ID" max_length="50" name="scan_id" type="string"/>
         <element label="Scan number" max_length="20" name="scan_number" type="string"/>
         <element label="Success" max_length="10" name="success" type="boolean"/>

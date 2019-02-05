@@ -4,7 +4,7 @@
         <action_type display_value="Look Up Record">bf0256c10b30030085c083eb37673ac0</action_type>
         <action_type_parent/>
         <comment/>
-        <compiled_snapshot/>
+        <compiled_snapshot display_value="Look Up Record">bf0256c10b30030085c083eb37673ac0</compiled_snapshot>
         <display_text/>
         <flow display_value="fetchIt">11de4843db092300fd672649489619c2</flow>
         <order>1</order>
@@ -13,14 +13,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-10-13 20:31:07</sys_created_on>
         <sys_id>5f10d483db092300fd67264948961932</sys_id>
-        <sys_mod_count>42</sys_mod_count>
+        <sys_mod_count>88</sys_mod_count>
         <sys_name/>
         <sys_package display_value="tnow_sprint_scan" source="x_snc_tnow_sprint">a0920866db8def00fd672649489619c2</sys_package>
         <sys_policy/>
         <sys_scope display_value="tnow_sprint_scan">a0920866db8def00fd672649489619c2</sys_scope>
         <sys_update_name>sys_hub_action_instance_5f10d483db092300fd67264948961932</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-10-14 02:53:30</sys_updated_on>
+        <sys_updated_on>2018-10-29 05:43:19</sys_updated_on>
         <ui_id>031892c3-8e52-463d-98a1-2b267d9ec186</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=5f10d483db092300fd67264948961932"/>

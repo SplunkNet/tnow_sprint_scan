@@ -6,7 +6,9 @@
         <category/>
         <copied_from/>
         <copied_from_name/>
-        <description/>
+        <description>THis is somewhat incorrectly named.  its not a general parsing script,  it specifically is meant for the processing of the responseBody from the initiation of a sprint scan request to update a local scope table with the details of its ID for future use.
+
+NOTE to self - think before you name something........</description>
         <internal_name>parserunit</internal_name>
         <label_cache>[{"name":"{{action.variable}}","label":"action➛responseBody","type":"action","ref":""}]</label_cache>
         <latest_snapshot>fde9b4bedb412300fd672649489619b9</latest_snapshot>
@@ -18,14 +20,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-10-12 23:10:05</sys_created_on>
         <sys_id>86ea6b66db452340fd672649489619e7</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>parseRunIt</sys_name>
         <sys_package display_value="tnow_sprint_scan" source="x_snc_tnow_sprint">a0920866db8def00fd672649489619c2</sys_package>
         <sys_policy/>
         <sys_scope display_value="tnow_sprint_scan">a0920866db8def00fd672649489619c2</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_86ea6b66db452340fd672649489619e7</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-10-13 05:28:32</sys_updated_on>
+        <sys_updated_on>2018-10-14 04:00:03</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>

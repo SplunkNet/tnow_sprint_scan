@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <compiled_snapshot display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="fetchIt">041f5dc7db892300fd672649489619c6</flow>
+        <order>4.1</order>
+        <parent_ui_id>8bc5623b-d93b-409d-aed2-36ec501708de</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-19 04:59:18</sys_created_on>
+        <sys_id>1064b320dbd923008fa87709689619fe</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="tnow_sprint_scan" source="x_snc_tnow_sprint">a0920866db8def00fd672649489619c2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="tnow_sprint_scan">a0920866db8def00fd672649489619c2</sys_scope>
+        <sys_update_name>sys_hub_action_instance_1064b320dbd923008fa87709689619fe</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-19 04:59:19</sys_updated_on>
+        <ui_id>c98a88cf-3993-40d3-9364-8dc1a75139e0</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=1064b320dbd923008fa87709689619fe"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1064b320dbd923008fa87709689619fe</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-19 04:59:18</sys_created_on>
+        <sys_id>d064f320dbd923008fa8770968961903</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-19 04:59:18</sys_updated_on>
+        <value>x_snc_tnow_sprint_scan_history</value>
+        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=1064b320dbd923008fa87709689619fe"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>1064b320dbd923008fa87709689619fe</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-19 04:59:18</sys_created_on>
+        <sys_id>9c64f320dbd923008fa8770968961902</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-19 04:59:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{031892c3-8e52-463d-98a1-2b267d9ec186.Record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>1064b320dbd923008fa87709689619fe</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-19 04:59:18</sys_created_on>
+        <sys_id>d864f320dbd923008fa8770968961902</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-19 04:59:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>1064b320dbd923008fa87709689619fe</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-19 04:59:18</sys_created_on>
+        <sys_id>5064f320dbd923008fa8770968961903</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-19 04:59:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>retrieved=false^payload={{02b6299e-ae45-41fe-bae5-cb855a1aa0b9.responsebody}}</value>
+    </sys_element_mapping>
+</record_update>
